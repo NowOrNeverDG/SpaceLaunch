@@ -30,7 +30,7 @@ class DetailVC: UIViewController {
             rocketTypeLabel.text = "Rocket Type: \(rocketType)"
             launchSiteLabel.text = "Launch Site: \(launchSite)"
             siteNameLabel.text = "Site Name: \(siteName)"
-            detailsLabel.text = "Detail: \(detail)"
+            detailsLabel.text = "Detail: \(detail)" + "\nRamata's changes"
             landscapeImgView.imageFromURL(urlString: landscapeImgViewUrlStr)
         }
     }
